@@ -63,30 +63,20 @@ export const CeloCoinFetch = async () => {
     const currentData = await graphQLClientBlock.request(currentBlockQuery)
     const currentBlockNumber = currentData.blocks[0].number
 
-
-    const yesterdayDateTo = Math.floor(new Date(new Date().getTime() - 86400000).getTime() / 1000);
-    const yesterdayDateFrom = Math.floor(new Date(new Date().getTime() - 87000000).getTime() / 1000);
-
-    const yesterdayBlockQuery = blockGqlQuery(yesterdayDateFrom, yesterdayDateTo)
-    const yesterdayData = await graphQLClientBlock.request(yesterdayBlockQuery)
-    const yesterdayBlockNumber = yesterdayData.blocks[0].number
-
     for await (var token of celoCoins) {
 
-        let currentUbeQuery = ubeGqlQuery(token.tokenAddress.toLowerCase(), currentBlockNumber)
+        let currentUbeQuery = ubeGqlQuery(token.address.toLowerCase(), currentBlockNumber)
         let currentUbeData = await graphQLClientUbe.request(currentUbeQuery)
         let currentReserveUSD = currentUbeData.token.derivedCUSD
 
-        let yesterdaytUbeQuery = ubeGqlQuery(token.tokenAddress.toLowerCase(), yesterdayBlockNumber)
-        let yesterdayUbeData = await graphQLClientUbe.request(yesterdaytUbeQuery)
-        let yesterdayReserveUSD = yesterdayUbeData.token.derivedCUSD
-
-        let percent_24 = ((currentReserveUSD - yesterdayReserveUSD) / currentReserveUSD) * 100
-
         let data = {
-            name: token.tokenName,
-            price: parseFloat(currentReserveUSD.slice(0, 7)),
-            percent_24
+            address: token.address,
+            decimals: token.decimals,
+            name: token.name,
+            symbol: token.symbol,
+            chainID: token.chainId,
+            priceUSD: parseFloat(currentReserveUSD.slice(0, 7)),
+            logoURI: token.logoURI,
         }
         console.log(data)
         const currencyDF = await firestore().collection("currencies").doc(data.name).get()
@@ -98,7 +88,6 @@ export const CeloCoinFetch = async () => {
         currency.push(data)
     }
     // fs.writeFileSync(path.join(__dirname, "..", "currency.txt"), JSON.stringify(currency))
-
 }
 
 

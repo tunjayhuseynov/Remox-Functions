@@ -1,21 +1,24 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "noImplicitReturns": true,
+    "module": "CommonJS",
+    "noImplicitReturns": false,
     "noUnusedLocals": true,
     "outDir": "lib",
     "sourceMap": true,
     "strict": true,
-    "target": "ES6",
+    "target": "ES2016",
     "resolveJsonModule": true,
     "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
   },
-  "compileOnSave": true,
+  "compileOnSave": false,
   "include": [
     "src"
   ],
   "exclude": [
     "**/node_modules",
+    "node_modules/**.d.ts",
     "**/*.spec.ts"
   ]
 }

@@ -1,0 +1,602 @@
+[
+  {
+    "address": "0xfa57AA7beED63D03Aaf85fFd1753f5f6242588fb",
+    "symbol": "MPS",
+    "name": "MtPelerin Shares",
+    "decimals": 0,
+    "chainId": "100",
+    "logoURI": "https://raw.githubusercontent.com/sushiswap/logos/master/network/xdai/0xfa57AA7beED63D03Aaf85fFd1753f5f6242588fb.jpg",
+    "coingeckoId": "mt-pelerin-shares",
+    "listedIn": ["coingecko", "sushiswap"]
+  },
+  {
+    "address": "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE",
+    "symbol": "ELK",
+    "name": "Elk",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d",
+    "symbol": "WXDAI",
+    "name": "Wrapped XDAI",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d/logo.png",
+    "coingeckoId": "wrapped-xdai",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0xdfc20AE04ED70bd9c7D720F449eEDAe19F659D65",
+    "symbol": "BADGER",
+    "name": "Badger on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xdfc20AE04ED70bd9c7D720F449eEDAe19F659D65/logo.png",
+    "coingeckoId": "badger-dao",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0xdd96B45877d0E8361a4DDb732da741e97f3191Ff",
+    "symbol": "BUSD",
+    "name": "BUSD Token from BSC",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xdd96B45877d0E8361a4DDb732da741e97f3191Ff/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0xc81c785653D97766b995D867CF91F56367742eAC",
+    "symbol": "AFI",
+    "name": "AriesFinancial on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xc81c785653D97766b995D867CF91F56367742eAC/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["openocean", "elkfinance"]
+  },
+  {
+    "address": "0xbf65bfcb5da067446CeE6A706ba3Fe2fB1a9fdFd",
+    "symbol": "YFI",
+    "name": "Yearn Finance on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xbf65bfcb5da067446CeE6A706ba3Fe2fB1a9fdFd/logo.png",
+    "coingeckoId": "yearn-finance",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0xbcfB2B889F7bAa29Dd7A7B447b6C87Aca572F4f4",
+    "symbol": "ADAI",
+    "name": "Aave Interest bearing DAI on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xbcfB2B889F7bAa29Dd7A7B447b6C87Aca572F4f4/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["openocean", "elkfinance"]
+  },
+  {
+    "address": "0xb90D6bec20993Be5d72A5ab353343f7a0281f158",
+    "symbol": "DXD",
+    "name": "DXdao from Ethereum",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xb90D6bec20993Be5d72A5ab353343f7a0281f158/logo.png",
+    "coingeckoId": "dxdao",
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0xb7D311E2Eb55F2f68a9440da38e7989210b9A05e",
+    "symbol": "STAKE",
+    "name": "Stake Token on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xb7D311E2Eb55F2f68a9440da38e7989210b9A05e/logo.png",
+    "coingeckoId": "xdai-stake",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0xb0C5f3100A4d9d9532a4CfD68c55F1AE8da987Eb",
+    "symbol": "HAUS",
+    "name": "Haus",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xb0C5f3100A4d9d9532a4CfD68c55F1AE8da987Eb/logo.png",
+    "coingeckoId": "daohaus",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2",
+    "symbol": "WLINK",
+    "name": "ChainLink Token on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xE2e73A1c69ecF83F464EFCE6A5be353a37cA09b2/logo.png",
+    "coingeckoId": "chainlink",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0xDF613aF6B44a31299E48131e9347F034347E2F00",
+    "symbol": "WAAVE",
+    "name": "Aave Token on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xDF613aF6B44a31299E48131e9347F034347E2F00/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83",
+    "symbol": "USDC",
+    "name": "USDC on xDai",
+    "decimals": 6,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xDDAfbb505ad214D7b80b1f830fcCc89B60fb7A83/logo.png",
+    "coingeckoId": "usd-coin",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0xD51e1ddD116fFF9A71C1B8FEEb58113aFa2B4d93",
+    "symbol": "AMIS",
+    "name": "AMIS on xDai",
+    "decimals": 9,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xD51e1ddD116fFF9A71C1B8FEEb58113aFa2B4d93/logo.png",
+    "coingeckoId": "amis",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0xD3D47d5578e55C880505dC40648F7F9307C3e7A8",
+    "symbol": "DPI",
+    "name": "DefiPulse Index from Ethereum",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xD3D47d5578e55C880505dC40648F7F9307C3e7A8/logo.png",
+    "coingeckoId": "defipulse-index",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "elkfinance"]
+  },
+  {
+    "address": "0xD3226B12e6188133b19Ac0419f34B0ed5B10f069",
+    "symbol": "ESR",
+    "name": "EsportsRef",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xD3226B12e6188133b19Ac0419f34B0ed5B10f069/logo.png",
+    "coingeckoId": "esportsref",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0xC45b3C1c24d5F54E7a2cF288ac668c74Dd507a84",
+    "symbol": "SYMM",
+    "name": "Symmetric",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xC45b3C1c24d5F54E7a2cF288ac668c74Dd507a84/logo.png",
+    "coingeckoId": "symmetric",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0xC25AF3123d2420054c8fcd144c21113aa2853F39",
+    "symbol": "XGTV2",
+    "name": "Xion Global Token",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xC25AF3123d2420054c8fcd144c21113aa2853F39/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0xB5d592f85ab2D955c25720EbE6FF8D4d1E1Be300",
+    "symbol": "PRTCLE",
+    "name": "Particle",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xB5d592f85ab2D955c25720EbE6FF8D4d1E1Be300/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0xB17d999E840e0c1B157Ca5Ab8039Bd958b5fA317",
+    "symbol": "ETHO",
+    "name": "Wrapped ETHO",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xB17d999E840e0c1B157Ca5Ab8039Bd958b5fA317/logo.png",
+    "coingeckoId": "ether-1",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb",
+    "symbol": "GNO",
+    "name": "Gnosis on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x9C58BAcC331c9aa871AFD802DB6379a98e80CEdb/logo.png",
+    "coingeckoId": "gnosis",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x988d1Be68F2C5cDE2516a2287c59Bd6302b7D20D",
+    "symbol": "PUNK",
+    "name": "xDai Punks",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x988d1Be68F2C5cDE2516a2287c59Bd6302b7D20D/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0x981fB9BA94078a2275A8fc906898ea107B9462A8",
+    "symbol": "PAN",
+    "name": "Panvala pan on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x981fB9BA94078a2275A8fc906898ea107B9462A8/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0x97Edc0e345FbBBd8460847Fcfa3bc2a13bF8641F",
+    "symbol": "RICE",
+    "name": "DAOSquare Governance Token from Ethereum",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://daodkp.oss-ap-southeast-1.aliyuncs.com/assets/logo-sm.png",
+    "coingeckoId": "daosquare",
+    "listedIn": ["coingecko", "1inch"]
+  },
+  {
+    "address": "0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252",
+    "symbol": "WBTC",
+    "name": "Wrapped BTC on xDai",
+    "decimals": 8,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x8e5bBbb09Ed1ebdE8674Cda39A0c169401db4252/logo.png",
+    "coingeckoId": "wrapped-bitcoin",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x8c88eA1fD60462Ef7004B9e288afCB4680a3c50c",
+    "symbol": "0xMR",
+    "name": "0xMonero from Ethereum",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x8c88eA1fD60462Ef7004B9e288afCB4680a3c50c/logo.png",
+    "coingeckoId": "0xmonero",
+    "listedIn": ["coingecko", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x83FF60E2f93F8eDD0637Ef669C69D5Fb4f64cA8E",
+    "symbol": "BRIGHT",
+    "name": "Bright",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x83FF60E2f93F8eDD0637Ef669C69D5Fb4f64cA8E/logo.png",
+    "coingeckoId": "bright-token",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x82dFe19164729949fD66Da1a37BC70dD6c4746ce",
+    "symbol": "BAO",
+    "name": "BaoToken on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x82dFe19164729949fD66Da1a37BC70dD6c4746ce/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "sushiswap", "elkfinance"]
+  },
+  {
+    "address": "0x7f7440C5098462f833E123B44B8A03E1d9785BAb",
+    "symbol": "1INCH",
+    "name": "1INCH Token on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x7f7440C5098462f833E123B44B8A03E1d9785BAb/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["openocean", "elkfinance"]
+  },
+  {
+    "address": "0x71850b7E9Ee3f13Ab46d67167341E4bDc905Eef9",
+    "symbol": "HNY",
+    "name": "Honey",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x71850b7E9Ee3f13Ab46d67167341E4bDc905Eef9/logo.png",
+    "coingeckoId": "honey",
+    "listedIn": ["coingecko", "1inch", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x712b3d230F3C1c19db860d80619288b1F0BDd0Bd",
+    "symbol": "CRV",
+    "name": "Curve DAO Token on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x712b3d230F3C1c19db860d80619288b1F0BDd0Bd/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["sushiswap", "elkfinance"]
+  },
+  {
+    "address": "0x703120F2f2011a0D03A03a531Ac0e84e81F15989",
+    "symbol": "UNCL",
+    "name": "UNCL on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x703120F2f2011a0D03A03a531Ac0e84e81F15989/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0x6A8cb6714B1EE5b471a7D2eC4302cb4f5Ff25eC2",
+    "symbol": "EWTB",
+    "name": "Energy Web Token Bridged on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x6A8cb6714B1EE5b471a7D2eC4302cb4f5Ff25eC2/logo.png",
+    "coingeckoId": "energy-web-token",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1",
+    "symbol": "WETH",
+    "name": "Wrapped Ether on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x6A023CCd1ff6F2045C3309768eAd9E68F978f6e1/logo.png",
+    "coingeckoId": "weth",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x63e62989D9EB2d37dfDB1F93A22f063635b07d51",
+    "symbol": "MIVA",
+    "name": "Minerva Wallet SuperToken",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x63e62989D9EB2d37dfDB1F93A22f063635b07d51/logo.png",
+    "coingeckoId": "minerva-wallet",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x57e93BB58268dE818B42E3795c97BAD58aFCD3Fe",
+    "symbol": "RAREV2",
+    "name": "Rare Coin v2",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x57e93BB58268dE818B42E3795c97BAD58aFCD3Fe/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0x524B969793a64a602342d89BC2789D43a016B13A",
+    "symbol": "DONUT",
+    "name": "Donut on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x524B969793a64a602342d89BC2789D43a016B13A/logo.png",
+    "coingeckoId": "donut",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x512a2Eb0277573ae9Be0d48c782590b624048fdF",
+    "symbol": "MEME",
+    "name": "MEME on xDai",
+    "decimals": 8,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x512a2Eb0277573ae9Be0d48c782590b624048fdF/logo.png",
+    "coingeckoId": "degenerator",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x4f4F9b8D5B4d0Dc10506e5551B0513B61fD59e75",
+    "symbol": "GIV",
+    "name": "Giveth from Mainnet",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x4f4F9b8D5B4d0Dc10506e5551B0513B61fD59e75/logo.png",
+    "coingeckoId": "giveth",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x4ECaBa5870353805a9F068101A40E0f32ed605C6",
+    "symbol": "USDT",
+    "name": "Tether on xDai",
+    "decimals": 6,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x4ECaBa5870353805a9F068101A40E0f32ed605C6/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x48b1B0d077b4919b65b4E4114806dD803901E1D9",
+    "symbol": "DIP",
+    "name": "Decentralized Insurance Protocol on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x48b1B0d077b4919b65b4E4114806dD803901E1D9/logo.png",
+    "coingeckoId": "etherisc",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x479e32cDFF5F216f93060700C711D1cC8E811a6B",
+    "symbol": "TRIPS",
+    "name": "Trips on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x479e32cDFF5F216f93060700C711D1cC8E811a6B/logo.png",
+    "coingeckoId": "trips-community",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74",
+    "symbol": "UNI",
+    "name": "Uniswap on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x4537e328Bf7e4eFA29D05CAeA260D7fE26af9D74/logo.png",
+    "coingeckoId": "uniswap",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x44fA8E6f47987339850636F88629646662444217",
+    "symbol": "DAI",
+    "name": "Dai Stablecoin on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x44fA8E6f47987339850636F88629646662444217/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0x417602f4fbdd471A431Ae29fB5fe0A681964C11b",
+    "symbol": "JPYC",
+    "name": "JPY Coin on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x417602f4fbdd471A431Ae29fB5fe0A681964C11b/logo.png",
+    "coingeckoId": "jpyc",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x3a97704a1b25F08aa230ae53B352e2e72ef52843",
+    "symbol": "AGVE",
+    "name": "Agave",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x3a97704a1b25F08aa230ae53B352e2e72ef52843/logo.png",
+    "coingeckoId": "agave-token",
+    "listedIn": ["coingecko", "1inch", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x3F56e0c36d275367b8C502090EDF38289b3dEa0d",
+    "symbol": "MAI",
+    "name": "miMatic",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x3F56e0c36d275367b8C502090EDF38289b3dEa0d/logo.png",
+    "coingeckoId": "mimatic",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x38Fb649Ad3d6BA1113Be5F57B927053E97fC5bF7",
+    "symbol": "XCOMB",
+    "name": "xDai Native Comb",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x38Fb649Ad3d6BA1113Be5F57B927053E97fC5bF7/logo.png",
+    "coingeckoId": "xdai-native-comb",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x37b60f4E9A31A64cCc0024dce7D0fD07eAA0F7B3",
+    "symbol": "PNK",
+    "name": "Pinakion on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x37b60f4E9A31A64cCc0024dce7D0fD07eAA0F7B3/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0x2f9ceBf5De3bc25E0643D0E66134E5bf5c48e191",
+    "symbol": "xBRICK",
+    "name": "Bricks on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x2f9ceBf5De3bc25E0643D0E66134E5bf5c48e191/logo.png",
+    "coingeckoId": "brick",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x2bF2ba13735160624a0fEaE98f6aC8F70885eA61",
+    "symbol": "FRACTION",
+    "name": "Own a fraction",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x2bF2ba13735160624a0fEaE98f6aC8F70885eA61/logo.png",
+    "coingeckoId": "fraction",
+    "listedIn": ["coingecko", "elkfinance"]
+  },
+  {
+    "address": "0x2995D1317DcD4f0aB89f4AE60F3f020A4F17C7CE",
+    "symbol": "WSUSHI",
+    "name": "SushiToken on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x2995D1317DcD4f0aB89f4AE60F3f020A4F17C7CE/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["sushiswap", "openocean", "elkfinance"]
+  },
+  {
+    "address": "0x27B9C2Bd4BaEa18ABdF49169054c1C1c12af9862",
+    "symbol": "SNAFU",
+    "name": "SNAFU",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x27B9C2Bd4BaEa18ABdF49169054c1C1c12af9862/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["1inch", "elkfinance"]
+  },
+  {
+    "address": "0x256eb8a51f382650B2A1e946b8811953640ee47D",
+    "symbol": "DATA",
+    "name": "Streamr DATA on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://tokens.1inch.io/0x8f693ca8d21b157107184d29d398a8d082b38b76.png",
+    "coingeckoId": "streamr",
+    "listedIn": ["coingecko", "1inch"]
+  },
+  {
+    "address": "0x21a42669643f45Bc0e086b8Fc2ed70c23D67509d",
+    "symbol": "FOX",
+    "name": "FOX",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x21a42669643f45Bc0e086b8Fc2ed70c23D67509d/logo.png",
+    "coingeckoId": "shapeshift-fox-token",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x1e16aa4Df73d29C029d94CeDa3e3114EC191E25A",
+    "symbol": "XMOON",
+    "name": "xMOON on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x1e16aa4Df73d29C029d94CeDa3e3114EC191E25A/logo.png",
+    "coingeckoId": "moon",
+    "listedIn": ["1inch", "sushiswap", "elkfinance"]
+  },
+  {
+    "address": "0x18E9262e68Cc6c6004dB93105cc7c001BB103e49",
+    "symbol": "RAID",
+    "name": "Raid Guild Token from Ethereum",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://raw.githubusercontent.com/1Hive/default-token-list/master/src/assets/xdai/0x18e9262e68cc6c6004db93105cc7c001bb103e49/logo.png",
+    "coingeckoId": "raid-token",
+    "listedIn": ["coingecko", "1inch"]
+  },
+  {
+    "address": "0x0116e28B43A358162B96f70B4De14C98A4465f25",
+    "symbol": "UNCX",
+    "name": "UniCrypt on xDai",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0x0116e28B43A358162B96f70B4De14C98A4465f25/logo.png",
+    "coingeckoId": "unicrypt-2",
+    "listedIn": ["coingecko", "1inch", "elkfinance"]
+  },
+  {
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "GNO",
+    "name": "Gnosis Coin",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://api.rubic.exchange/assets/xdai/0x0000000000000000000000000000000000000000/logo.png",
+    "coingeckoId": null,
+    "listedIn": ["openocean", "rubic"]
+  }
+]
