@@ -6,7 +6,7 @@ import { BigNumber, ethers } from "ethers";
 import { adminApp } from "../../admin";
 
 const provider = new ethers.providers.JsonRpcProvider(
-  "https://optimistic.etherscan.io"
+  "https://rpc.ankr.com/optimism"
 );
 
 const offChainAddress = "0x11DEE30E710B8d4a8630392781Cc3c0046365d4c";
