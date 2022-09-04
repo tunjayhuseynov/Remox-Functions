@@ -1,4 +1,12 @@
-[
+[{
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "ETH",
+    "name": "Ethereum",
+    "decimals": 18,
+    "chainId": 1,
+    "logoURI": "https://d33wubrfki0l68.cloudfront.net/fcd4ecd90386aeb50a235ddc4f0063cfbb8a7b66/4295e/static/bfc04ac72981166c740b189463e1f74c/40129/eth-diamond-black-white.jpg",
+    "coingeckoId": "weth"
+  },
   {
     "address": "0xF98dCd95217E15E05d8638da4c91125E59590B07",
     "symbol": "KROM",

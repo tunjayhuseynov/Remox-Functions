@@ -1,9 +1,8 @@
 import ethereumTokens from "../TokensList/ethereumTokens.json";
 import OffChainOracleABI from "../../abi/OffChainOracle";
-import { BigNumber, ethers } from "ethers";
-import { getEthPrice } from "../Price/getEthereumPrice";
-import { Token } from '../Types'
+import { ethers } from "ethers";
 import { adminApp } from "../../admin";
+import { getToken } from "./utils";
 
 const provider = new ethers.providers.JsonRpcProvider(
   "https://rpc.ankr.com/eth"
@@ -18,10 +17,14 @@ const offChainOracleContract = new ethers.Contract(
 );
 
 const getTokens = async () => {
-  const ethPrice = await getEthPrice();
+  const ethPrice = await offChainOracleContract.getRate(
+    "0x0000000000000000000000000000000000000000",
+    "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+    true
+  );
 
   const newTokens = await Promise.allSettled(
-    ethereumTokens.map((s) => getToken(ethPrice, s))
+    ethereumTokens.map((s) => getToken(s, ethPrice.toString(), offChainOracleContract))
   );
 
 
@@ -33,33 +36,6 @@ const getTokens = async () => {
       }
     }
     await batch.commit()
-  }
-};
-
-const getToken = async (ethPrice: number, token: Token) => {
-  try {
-    const rate = await offChainOracleContract.getRateToEth(
-      token.address.toLowerCase(),
-      true
-    );
-    const numerator = BigNumber.from(10).pow(token.decimals);
-    const denominator = BigNumber.from(10).pow(18); // eth decimals
-    const price = BigNumber.from(rate).mul(numerator).div(denominator);
-    const finalPrice = (+price / Math.pow(10, 18)).toString();
-
-    if (+finalPrice == 0) {
-      return {
-        ...token,
-        priceUSD: 0,
-      };
-    } else {
-      return {
-        ...token,
-        priceUSD: +finalPrice * ethPrice,
-      };
-    }
-  } catch (e) {
-    throw new Error(e as any);
   }
 };
 

@@ -10,7 +10,7 @@
         "listedIn": ["coingecko", "1inch", "sushiswap"]
     },
     {
-        "address": "0x0000000000000000000000000000000000001010",
+        "address": "0x0000000000000000000000000000000000000000",
         "symbol": "MATIC",
         "name": "Matic Network",
         "decimals": 18,

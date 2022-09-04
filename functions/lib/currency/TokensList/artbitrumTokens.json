@@ -1,4 +1,11 @@
-[
+[{
+        "address": "0x0000000000000000000000000000000000000000",
+        "symbol": "ETH",
+        "name": "Ethereum",
+        "decimals": 18,
+        "chainId": 42161,
+        "logoURI": "https://d33wubrfki0l68.cloudfront.net/fcd4ecd90386aeb50a235ddc4f0063cfbb8a7b66/4295e/static/bfc04ac72981166c740b189463e1f74c/40129/eth-diamond-black-white.jpg"
+    },
     {
         "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
         "symbol": "GMX",

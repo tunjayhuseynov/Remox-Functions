@@ -1,4 +1,12 @@
-[
+[{
+    "address": "0x0000000000000000000000000000000000000000",
+    "symbol": "XDAI",
+    "name": "XDAI",
+    "decimals": 18,
+    "chainId": "100",
+    "logoURI": "https://elk.finance/tokens/logos/xdai/0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d/logo.png",
+    "listedIn": ["coingecko", "1inch", "sushiswap", "openocean", "elkfinance"]
+  },
   {
     "address": "0xfa57AA7beED63D03Aaf85fFd1753f5f6242588fb",
     "symbol": "MPS",

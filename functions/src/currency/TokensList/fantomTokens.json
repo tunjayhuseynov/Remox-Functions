@@ -1,4 +1,12 @@
-[
+[{
+    "name": "Fantom",
+    "symbol": "FTM",
+    "address": "0x0000000000000000000000000000000000000000",
+    "chainId": 250,
+    "decimals": 18,
+    "logoURI": "https://assets.spooky.fi/tokens/wFTM.png",
+    "bridgeId": ""
+  },
   {
     "name": "Aave",
     "symbol": "AAVE",

@@ -1,4 +1,11 @@
-[
+[{
+        "address": "0x0000000000000000000000000000000000000000",
+        "symbol": "BNB",
+        "name": "BNB",
+        "decimals": 18,
+        "chainId": 56,
+        "logoURI": "https://api.rubic.exchange/assets/binance-smart-chain/0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c/logo.png"
+    },
     {
         "address": "0xffEecbf8D7267757c2dc3d13D730E97E15BfdF7F",
         "symbol": "BORING",
