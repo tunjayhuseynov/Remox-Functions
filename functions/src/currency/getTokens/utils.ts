@@ -28,7 +28,7 @@ export const getToken = async (token: Token, ethPrice: string, offChainOracleCon
                 name: token.name,
                 symbol: token.symbol,
                 chainID: token.chainId,
-                type: token.type == "Yield" ?? "Spot",
+                type: token.type ?? "Spot",
                 priceUSD: +finalPrice,
                 logoURI: token.logoURI,
             };

@@ -36,6 +36,7 @@ export const CeloCoinFetch = async () => {
             chainID: token.chainId,
             priceUSD: parseFloat(currentReserveUSD.slice(0, 7)),
             logoURI: token.logoURI,
+            type: token.type ?? "Spot"
         }
     }))
 
@@ -86,6 +87,7 @@ export const SolanaCoinFetch = async () => {
                 chainID: token.chainId,
                 priceUSD: current_price,
                 logoURI: token.logoURI,
+                type: token.type ?? "Spot"
             }
         }))
 
