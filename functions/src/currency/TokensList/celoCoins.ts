@@ -219,6 +219,7 @@ export default [
         "name": "Moola",
         "address": "0x17700282592D6917F6A73D0bF8AcCf4D578c131e",
         "symbol": "MOO",
+        "type": "Yield",
         "decimals": 18,
         "chainId": 42220,
         "logoURI": "https://raw.githubusercontent.com/ubeswap/default-token-list/master/assets/asset_MOO.png"
@@ -283,6 +284,7 @@ export default [
         "name": "Moola CELO",
         "address": "0x7D00cd74FF385c955EA3d79e47BF06bD7386387D",
         "symbol": "mCELO",
+        "type": "Yield",
         "decimals": 18,
         "chainId": 42220,
         "logoURI": "https://raw.githubusercontent.com/ubeswap/default-token-list/master/assets/asset_mCELO.png"
@@ -307,6 +309,7 @@ export default [
         "name": "Moola cUSD",
         "address": "0x918146359264C492BD6934071c6Bd31C854EDBc3",
         "symbol": "mcUSD",
+        "type": "Yield",
         "decimals": 18,
         "chainId": 42220,
         "logoURI": "https://raw.githubusercontent.com/ubeswap/default-token-list/master/assets/asset_mcUSD.png"
@@ -323,6 +326,7 @@ export default [
         "name": "Moola cREAL",
         "address": "0x9802d866fdE4563d088a6619F7CeF82C0B991A55",
         "symbol": "mcREAL",
+        "type": "Yield",
         "decimals": 18,
         "chainId": 42220,
         "logoURI": "https://raw.githubusercontent.com/ubeswap/default-token-list/master/assets/asset_mcREAL.png"
@@ -355,6 +359,7 @@ export default [
         "name": "Moola cEUR",
         "address": "0xE273Ad7ee11dCfAA87383aD5977EE1504aC07568",
         "symbol": "mcEUR",
+        "type": "Yield",
         "decimals": 18,
         "chainId": 42220,
         "logoURI": "https://raw.githubusercontent.com/ubeswap/default-token-list/master/assets/asset_mcEUR.png"
