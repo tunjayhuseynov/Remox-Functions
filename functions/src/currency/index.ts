@@ -23,10 +23,20 @@ export const CeloCoinFetch = async () => {
 
     const graphQLClientUbe = new GraphQLClient(endpointUbe)
 
+    const req = await axios.get("https://api.coinbase.com/v2/exchange-rates")
+    const data = req.data.data.rates
+
     const tokens = await Promise.allSettled(celoCoins.map(async (token) => {
         let currentUbeQuery = ubeGqlQuery(token.address.toLowerCase())
         let currentUbeData = await graphQLClientUbe.request(currentUbeQuery)
         let currentReserveUSD = currentUbeData.token.derivedCUSD
+        let priceUSD = parseFloat(currentReserveUSD.slice(0, 7))
+        let priceAUD = priceUSD * data.AUD;
+        let priceCAD = priceUSD * data.CAD;
+        let priceEUR = priceUSD * data.EUR;
+        let priceGBP = priceUSD * data.GBP;
+        let priceJPY = priceUSD * data.JPY;
+        let priceTRY = priceUSD * data.TRY;
 
         return {
             address: token.address,
@@ -34,7 +44,13 @@ export const CeloCoinFetch = async () => {
             name: token.name,
             symbol: token.symbol,
             chainID: token.chainId,
-            priceUSD: parseFloat(currentReserveUSD.slice(0, 7)),
+            priceUSD,
+            priceAUD,
+            priceCAD,
+            priceEUR,
+            priceGBP,
+            priceJPY,
+            priceTRY,
             logoURI: token.logoURI,
             type: token.type ?? "Spot"
         }
@@ -87,7 +103,7 @@ export const SolanaCoinFetch = async () => {
                 chainID: token.chainId,
                 priceUSD: current_price,
                 logoURI: token.logoURI,
-                type: token.type ?? "Spot"
+                type: (token as any)?.type ?? "Spot"
             }
         }))
 

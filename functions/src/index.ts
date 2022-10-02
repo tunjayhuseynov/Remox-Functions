@@ -1,6 +1,6 @@
 import * as functions from "firebase-functions";
+import { CeloHPRefresher } from "./currency/HPrice/celo";
 import { CeloCoinFetch, SolanaCoinFetch } from "./currency";
-import { checker } from "./gelato";
 import getEthereumTokens from "./currency/getTokens/getEthereumTokens";
 import getOptimismTokens from "./currency/getTokens/getOptimismTokens";
 import getPolygonTokens from "./currency/getTokens/getPolygonTokens";
@@ -15,12 +15,17 @@ const runtimeOpts: functions.RuntimeOptions = {
     memory: "512MB"
 }
 
-export const celoSolanacurrency = functions.runWith(runtimeOpts).pubsub.schedule("*/5 * * * *").onRun(async (context) => {
+export const celoSolanacurrency = functions.runWith(runtimeOpts).pubsub.schedule("*/5 * * * *").timeZone('Greenwich').onRun(async (context) => {
     await Promise.all([
         CeloCoinFetch(),
         SolanaCoinFetch(),
     ])
 });
+
+export const CeloHpRefresher = functions.runWith(runtimeOpts).pubsub.schedule("1 0 * * *").timeZone('Greenwich').onRun(async (context) => {
+    await CeloHPRefresher()
+})
+
 
 export const EthereumCurrency = functions.runWith(runtimeOpts).pubsub.schedule("*/5 * * * *").onRun(async (context) => {
     await getEthereumTokens()
@@ -48,11 +53,21 @@ export const ThirdEVMcurrency = functions.runWith(runtimeOpts).pubsub.schedule("
     ])
 });
 
-export const scheduledFunction = functions.pubsub.schedule('00 01,13 * * *').onRun(async (context) => {
-    try {
-        await checker()
-    } catch (error) {
-        console.log(error)
-    }
-    return true
-});
+// export const scheduledFunction = functions.pubsub.schedule('00 01,13 * * *').onRun(async (context) => {
+//     try {
+//         await checker()
+//     } catch (error) {
+//         console.log(error)
+//     }
+//     return true
+// });
+
+
+// export const celoHP = functions.https.onRequest(async (request, response) => {
+//     try {
+//         await CeloHP()
+//     } catch (error) {
+//         console.log(error)
+//     }
+//     response.send("Hello from Firebase!");
+// })
