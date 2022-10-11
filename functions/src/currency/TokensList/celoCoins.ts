@@ -154,16 +154,6 @@ export default [
     },
     {
         chainId: 42220,
-        address: '0x7037f7296b2fc7908de7b57a89efaa8319f0c500',
-        name: 'Moola CELO AToken',
-        type: 'Yield',
-        symbol: 'MCELO',
-        decimals: 18,
-        logoURI:
-            'https://assets.coingecko.com/coins/images/18476/thumb/mcelo.png?1632134461',
-    },
-    {
-        chainId: 42220,
         address: '0xd8763cba276a3738e6de85b4b3bf5fded6d6ca73',
         name: 'Celo Euro',
         symbol: 'CEUR',
@@ -195,6 +185,7 @@ export default [
         address: '0x7d00cd74ff385c955ea3d79e47bf06bd7386387d',
         name: 'mCELO',
         symbol: 'MCELO',
+        type: "Yield",
         decimals: 18,
         logoURI:
             'https://assets.coingecko.com/coins/images/22346/thumb/1OY4GRnl_400x400_%281%29.jpg?1641539213',
